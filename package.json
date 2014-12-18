@@ -1,0 +1,24 @@
+{
+  "name": "mdfind-stream",
+  "description": "osx mdfind stream interface",
+  "version": "0.0.1",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/mdfind-stream.git"
+  },
+  "homepage": "https://github.com/nbqx/mdfind-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "expand-home-dir": "0.0.2"
+  },
+  "devDependencies": {
+    "isstream": "^0.1.1",
+    "tap-colorize": "^1.2.0",
+    "tape": "^3.0.0"
+  }
+}
